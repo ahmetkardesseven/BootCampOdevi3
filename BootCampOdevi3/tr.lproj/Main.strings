@@ -1,0 +1,36 @@
+
+/* Class = "UIButton"; configuration.title = "Londra"; ObjectID = "ITW-wV-1Vh"; */
+"ITW-wV-1Vh.configuration.title" = "Londra";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "ITW-wV-1Vh"; */
+"ITW-wV-1Vh.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "Londra"; ObjectID = "glD-zm-zIw"; */
+"glD-zm-zIw.configuration.title" = "Londra";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "glD-zm-zIw"; */
+"glD-zm-zIw.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Dünya'nın başlangiç meridyeni İngiltere'den geçmektedir."; ObjectID = "ksp-mc-Rd1"; */
+"ksp-mc-Rd1.text" = "Dünya'nın başlangiç meridyeni İngiltere'den geçmektedir.";
+
+/* Class = "UILabel"; text = "Saat: 9.00"; ObjectID = "mhg-Ye-7RD"; */
+"mhg-Ye-7RD.text" = "Saat: 9.00";
+
+/* Class = "UILabel"; text = "Dünya Saati"; ObjectID = "rjx-88-7oe"; */
+"rjx-88-7oe.text" = "Dünya Saati";
+
+/* Class = "UIButton"; configuration.title = "Londra"; ObjectID = "s5I-yG-3Zh"; */
+"s5I-yG-3Zh.configuration.title" = "Londra";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "s5I-yG-3Zh"; */
+"s5I-yG-3Zh.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "Gezilecek Yerlerini Göster"; ObjectID = "uoR-qp-OPu"; */
+"uoR-qp-OPu.configuration.title" = "Gezilecek Yerlerini Göster";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "uoR-qp-OPu"; */
+"uoR-qp-OPu.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Seçim Yapın"; ObjectID = "vPh-78-GEI"; */
+"vPh-78-GEI.text" = "Seçim Yapın";

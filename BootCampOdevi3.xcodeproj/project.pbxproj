@@ -13,6 +13,7 @@
 		E33A47EF297C80A800ED79DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E33A47ED297C80A800ED79DD /* Main.storyboard */; };
 		E33A47F1297C80AE00ED79DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E33A47F0297C80AE00ED79DD /* Assets.xcassets */; };
 		E33A47F4297C80AE00ED79DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E33A47F2297C80AE00ED79DD /* LaunchScreen.storyboard */; };
+		E383664B297D2C6600ACCB80 /* Solitreo-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E383664A297D2C6600ACCB80 /* Solitreo-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,9 @@
 		E33A47F0297C80AE00ED79DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E33A47F3297C80AE00ED79DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E33A47F5297C80AE00ED79DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E383664A297D2C6600ACCB80 /* Solitreo-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Solitreo-Regular.ttf"; sourceTree = "<group>"; };
+		E383664C297D41FB00ACCB80 /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/Main.strings; sourceTree = "<group>"; };
+		E383664D297D41FC00ACCB80 /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,8 +67,17 @@
 				E33A47F0297C80AE00ED79DD /* Assets.xcassets */,
 				E33A47F2297C80AE00ED79DD /* LaunchScreen.storyboard */,
 				E33A47F5297C80AE00ED79DD /* Info.plist */,
+				E3836649297D2C3D00ACCB80 /* Fonts */,
 			);
 			path = BootCampOdevi3;
+			sourceTree = "<group>";
+		};
+		E3836649297D2C3D00ACCB80 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				E383664A297D2C6600ACCB80 /* Solitreo-Regular.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -109,6 +122,7 @@
 			knownRegions = (
 				en,
 				Base,
+				tr,
 			);
 			mainGroup = E33A47DB297C80A800ED79DD;
 			productRefGroup = E33A47E5297C80A800ED79DD /* Products */;
@@ -125,6 +139,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E383664B297D2C6600ACCB80 /* Solitreo-Regular.ttf in Resources */,
 				E33A47F4297C80AE00ED79DD /* LaunchScreen.storyboard in Resources */,
 				E33A47F1297C80AE00ED79DD /* Assets.xcassets in Resources */,
 				E33A47EF297C80A800ED79DD /* Main.storyboard in Resources */,
@@ -151,6 +166,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				E33A47EE297C80A800ED79DD /* Base */,
+				E383664C297D41FB00ACCB80 /* tr */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -159,6 +175,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				E33A47F3297C80AE00ED79DD /* Base */,
+				E383664D297D41FC00ACCB80 /* tr */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -170,6 +187,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -230,6 +248,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -290,6 +309,7 @@
 				DEVELOPMENT_TEAM = K82JX78JRB;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = BootCampOdevi3/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Saat;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -318,6 +338,7 @@
 				DEVELOPMENT_TEAM = K82JX78JRB;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = BootCampOdevi3/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Saat;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;

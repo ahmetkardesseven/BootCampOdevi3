@@ -8,17 +8,116 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Saat-->
+        <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="BootCampOdevi3" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dünya Saati" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rjx-88-7oe">
+                                <rect key="frame" x="80" y="108" width="254" height="43"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                                <color key="textColor" systemColor="systemTealColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="saat" translatesAutoresizingMaskIntoConstraints="NO" id="lUH-9U-jp0">
+                                <rect key="frame" x="100" y="171" width="214" height="148"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="15W-yY-4Fs">
+                                <rect key="frame" x="62.5" y="335" width="289.5" height="37"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s5I-yG-3Zh">
+                                        <rect key="frame" x="0.0" y="0.0" width="86.5" height="37"/>
+                                        <color key="backgroundColor" red="0.87147129290000003" green="0.96611279250000004" blue="0.91761959709999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="tintColor" systemColor="systemBlueColor"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Londra">
+                                            <fontDescription key="titleFontDescription" name="Helvetica" family="Helvetica" pointSize="20"/>
+                                        </buttonConfiguration>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="15"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ITW-wV-1Vh">
+                                        <rect key="frame" x="101.5" y="0.0" width="86.5" height="37"/>
+                                        <color key="backgroundColor" red="0.87147129290000003" green="0.96611279250000004" blue="0.91761959709999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="tintColor" systemColor="systemBlueColor"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Londra">
+                                            <fontDescription key="titleFontDescription" name="Helvetica" family="Helvetica" pointSize="20"/>
+                                        </buttonConfiguration>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="15"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="glD-zm-zIw">
+                                        <rect key="frame" x="203" y="0.0" width="86.5" height="37"/>
+                                        <color key="backgroundColor" red="0.87147129290000003" green="0.96611279250000004" blue="0.91761959709999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="tintColor" systemColor="systemBlueColor"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Londra">
+                                            <fontDescription key="titleFontDescription" name="Helvetica" family="Helvetica" pointSize="20"/>
+                                        </buttonConfiguration>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="15"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Saat: 9.00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mhg-Ye-7RD">
+                                <rect key="frame" x="158" y="382" width="98" height="26.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <color key="textColor" systemColor="systemGreenColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Seçim Yapın" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vPh-78-GEI">
+                                <rect key="frame" x="128" y="428.5" width="158" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <color key="textColor" red="0.96611279250000004" green="0.14735538279999999" blue="0.19873478459999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dünya'nın başlangiç meridyeni İngiltere'den geçmektedir." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ksp-mc-Rd1">
+                                <rect key="frame" x="32" y="480.5" width="350" height="42"/>
+                                <color key="tintColor" systemColor="systemIndigoColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" systemColor="systemGray2Color"/>
+                                <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="shadowColor" systemColor="systemGreenColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uoR-qp-OPu">
+                                <rect key="frame" x="97.5" y="787.5" width="219.5" height="34.5"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Gezilecek Yerlerini Göster"/>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="lUH-9U-jp0" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="0QW-cZ-Vql"/>
+                            <constraint firstItem="ksp-mc-Rd1" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="1Jr-Hl-76j"/>
+                            <constraint firstItem="15W-yY-4Fs" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="4A3-MO-gjz"/>
+                            <constraint firstItem="ksp-mc-Rd1" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="32" id="4QF-9t-tTc"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="uoR-qp-OPu" secondAttribute="bottom" constant="40" id="4ey-aT-WnC"/>
+                            <constraint firstItem="uoR-qp-OPu" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Kyp-zg-G18"/>
+                            <constraint firstItem="mhg-Ye-7RD" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="L85-ko-yRH"/>
+                            <constraint firstItem="15W-yY-4Fs" firstAttribute="top" secondItem="lUH-9U-jp0" secondAttribute="bottom" constant="16" id="SZl-jt-JD6"/>
+                            <constraint firstItem="vPh-78-GEI" firstAttribute="top" secondItem="mhg-Ye-7RD" secondAttribute="bottom" constant="20" id="Tiy-Dn-olz"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="lUH-9U-jp0" secondAttribute="trailing" constant="100" id="UCp-FQ-zrF"/>
+                            <constraint firstItem="vPh-78-GEI" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Vks-eX-g9R"/>
+                            <constraint firstItem="rjx-88-7oe" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="16" id="Vwn-Xr-4U8"/>
+                            <constraint firstItem="lUH-9U-jp0" firstAttribute="top" secondItem="rjx-88-7oe" secondAttribute="bottom" constant="20" id="Ytc-yv-gpx"/>
+                            <constraint firstItem="vPh-78-GEI" firstAttribute="centerX" secondItem="mhg-Ye-7RD" secondAttribute="centerX" id="eL4-qY-KbA"/>
+                            <constraint firstItem="ksp-mc-Rd1" firstAttribute="top" secondItem="vPh-78-GEI" secondAttribute="bottom" constant="16" id="hv4-Y7-26g"/>
+                            <constraint firstItem="mhg-Ye-7RD" firstAttribute="top" secondItem="15W-yY-4Fs" secondAttribute="bottom" constant="10" id="tSk-0X-IJA"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="rjx-88-7oe" secondAttribute="trailing" constant="80" id="tgh-Wn-ee5"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ksp-mc-Rd1" secondAttribute="trailing" constant="32" id="vkA-u1-c9n"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="lUH-9U-jp0" secondAttribute="bottom" constant="543" id="yQT-8n-6UF"/>
+                            <constraint firstItem="rjx-88-7oe" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="zvC-17-KPq"/>
+                        </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Saat" id="q2A-5P-1a3"/>
+                    <navigationItem key="navigationItem" id="q2A-5P-1a3"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -44,8 +143,24 @@
         </scene>
     </scenes>
     <resources>
+        <image name="saat" width="612" height="612"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBlueColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemGray2Color">
+            <color red="0.68235294117647061" green="0.68235294117647061" blue="0.69803921568627447" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemIndigoColor">
+            <color red="0.34509803921568627" green="0.33725490196078434" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemTealColor">
+            <color red="0.18823529411764706" green="0.69019607843137254" blue="0.7803921568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
