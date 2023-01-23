@@ -26,14 +26,14 @@
                                 <rect key="frame" x="100" y="171" width="214" height="148"/>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="15W-yY-4Fs">
-                                <rect key="frame" x="62.5" y="335" width="289.5" height="37"/>
+                                <rect key="frame" x="61" y="335" width="292.5" height="37"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s5I-yG-3Zh">
-                                        <rect key="frame" x="0.0" y="0.0" width="86.5" height="37"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="87.5" height="37"/>
                                         <color key="backgroundColor" red="0.87147129290000003" green="0.96611279250000004" blue="0.91761959709999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <color key="tintColor" systemColor="systemBlueColor"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="Londra">
+                                        <buttonConfiguration key="configuration" style="plain" title="Ankara">
                                             <fontDescription key="titleFontDescription" name="Helvetica" family="Helvetica" pointSize="20"/>
                                         </buttonConfiguration>
                                         <userDefinedRuntimeAttributes>
@@ -41,7 +41,7 @@
                                         </userDefinedRuntimeAttributes>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ITW-wV-1Vh">
-                                        <rect key="frame" x="101.5" y="0.0" width="86.5" height="37"/>
+                                        <rect key="frame" x="102.5" y="0.0" width="87.5" height="37"/>
                                         <color key="backgroundColor" red="0.87147129290000003" green="0.96611279250000004" blue="0.91761959709999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <color key="tintColor" systemColor="systemBlueColor"/>
                                         <state key="normal" title="Button"/>
@@ -53,11 +53,11 @@
                                         </userDefinedRuntimeAttributes>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="glD-zm-zIw">
-                                        <rect key="frame" x="203" y="0.0" width="86.5" height="37"/>
+                                        <rect key="frame" x="205" y="0.0" width="87.5" height="37"/>
                                         <color key="backgroundColor" red="0.87147129290000003" green="0.96611279250000004" blue="0.91761959709999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <color key="tintColor" systemColor="systemBlueColor"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="Londra">
+                                        <buttonConfiguration key="configuration" style="plain" title="Tokyo">
                                             <fontDescription key="titleFontDescription" name="Helvetica" family="Helvetica" pointSize="20"/>
                                         </buttonConfiguration>
                                         <userDefinedRuntimeAttributes>
